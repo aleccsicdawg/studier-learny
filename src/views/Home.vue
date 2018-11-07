@@ -1,18 +1,43 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <b-container>
+    <div class="blockbord"></div>
+    <b-row>
+      <b-col sm="6">
+        <div>
+          <img src="https://cdn.dribbble.com/users/50804/screenshots/4301724/freelancer.png" alt="" srcset="" width="100%">
+        </div>
+      </b-col>
+      <br>
+      <b-col sm="6">
+        <h3><b>Кооператор в обучении</b></h3>
+        <p>Когда-то дети мечтали о телефоне. А сейчас эти дети мечтают об хорошем качестве обучения своих детей!
+          Наш сервис дает ученику полную свободу и помогает ему ко-оперироватся с другими желающими учится!</p>
+        <p>Каждый кто учится в каком-то учебном заведении может попросить подать заявку об создании учебного воркспейса в нашем сервисе у своих преподавателей.</p>
+        <p>Мы считаем что кооперирование это отличный способ проявить себя и действительно поделится знаниями друг-с-другом.</p>
+        <p>За каждую кооперацию с кем-то, будь то даже если ученики учатся в одном классе, они оба получают монеты. За монеты они могут купить проффесиональную помощь учителя.</p>
+      </b-col>
+    </b-row>
+    <div class="blockbord"></div>
+    <b-row>
+      <b-col sm="6">
+        <h3><b>Контроль домашнего задания и сделанных проектов</b></h3>
+        <p>Делясь конспектами и домашним заданием вы можете получить балы, за которые уже потом покупаете помощь высококвалифицированных репетиторов.</p>
+        <p>Не сделали домашку, лабораторную и прочую бурду? Не беда, колледжер у руля!</p>
+
+      </b-col>
+      <br>
+      <b-col sm="6">
+        <div>
+          <img src="https://cdn.dribbble.com/users/648922/screenshots/3332362/5-girl.png" alt="" srcset="" width="100%">
+        </div>
+      </b-col>
+    </b-row>
+  </b-container>
 </template>
 
-<script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
-export default {
-  name: 'home',
-  components: {
-    HelloWorld
+<style scoped>
+  .blockbord {
+    height: 8vh;
   }
-}
-</script>
+
+</style>
